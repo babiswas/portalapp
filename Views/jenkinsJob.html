@@ -1,0 +1,47 @@
+{{ define "jenkinsjob" }}
+    <div id="navbar">
+        <center><h2>Report Portal</h2></center>
+    </div>
+   <div id="homepage">
+        <div id="sidepanel1" style="height:700px;width:20%" >
+            <div>
+                <center>
+                    <button style="background-color:white;color:black;margin-top:15px;margin-bottom:15px;" class="btnd"><a href="">Jenkins Job</a></button>
+                    <button style="background-color:white;color:black;margin-top:15px;margin-bottom:15px;" class="btnd"><a href="">Add Job</a></button>
+                    <button style="background-color:white;color:black;margin-top:15px;margin-bottom:15px;" class="btnd"><a href="">Add User</a></button>
+                    <button style="background-color:white;color:black;margin-top:15px;margin-bottom:15px;" class="btnd"><a href="">Task</a></button>
+                    <button style="background-color:white;color:black;margin-top:15px;margin-bottom:15px;" class="btnd"><a href="">Flexclouds</a></button>
+                    <button style="background-color:white;color:black;margin-top:15px;margin-bottom:15px;" class="btnd"><a href="">All Users</a></button>
+                    <button style="background-color:white;color:black;margin-top:15px;margin-bottom:15px;" class="btnd"><a href="">Add Role</a></button>
+                    <button style="background-color:white;color:black;margin-top:15px;margin-bottom:15px;" class="btnd"><a href="">All Roles</a></button>
+                </center>
+            </div>
+        </div>
+        <div id="sidepanel2" style="height:700px;width:78%">
+            <div id="addbots">
+                <center>
+                    <center>
+                        <div class="panel">
+                            <h2>Job List</h2>
+                        </div>
+                    </center>
+                    <div>
+                        <table id="mytable">
+                            <tr>
+                                <th>Jobname</th>
+                                <th>Project Name</th>
+                                <th>Feature Name</th>
+                                <th>Created At</th>
+                                <th>Updated At</th>
+                            </tr>
+                        </table>
+                    </div>
+                </center>
+               </div>
+        </div>
+   </div>
+<script src="./Static/js/config.js">
+</script>
+<script src="./Static/js/jenkinsjob.js">
+</script>
+{{ end }}
